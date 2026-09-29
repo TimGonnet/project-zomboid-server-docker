@@ -7,7 +7,7 @@
 ##                                            ##
 ########################333333##################
 
-DOCKER_IMAGE="danixu86/project-zomboid-dedicated-server"
+DOCKER_IMAGE="${DOCKER_IMAGE:-danixu86/project-zomboid-dedicated-server}"
 PZ_URL_WEB="https://projectzomboid.com/blog/"
 PZ_URL_FORUM="https://theindiestone.com/forums/forum/35-pz-updates/"
 BUILD_UNSTABLE_VERSIONS=true
