@@ -30,6 +30,7 @@ jobs:
         shell: bash
         env:
           FORCE_BUILD: ${{ inputs.force_build }}
+          DOCKER_IMAGE: ${{ vars.DOCKER_IMAGE }}
         run: |
           # make file runnable, might not be necessary
           chmod +x "${GITHUB_WORKSPACE}/scripts/get_updates.sh"
